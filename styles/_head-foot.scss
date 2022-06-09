@@ -1,0 +1,88 @@
+.header{
+    display:flex;
+    height: 12%;
+    width: 100%;
+    background-color:$head-foot-color;
+    justify-content: center;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    width: 20%;
+    align-items: flex-start;
+    justify-content: start;
+ }
+ .header-right{
+     display: flex;
+     width: 80%;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+ .logo-container{
+     display:flex;
+     width: 50%;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     margin-left: 10px;
+
+ }
+
+ .nav-items{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 5%;
+     width: 80%;
+     height: 100%;
+     
+ }
+ .nav-item-holder{
+    background-color: $main-green;
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    border-radius: 9px;
+}
+ .nav-item{
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+ }
+ .basket-logo-container{
+     display: flex;
+     width: 30%;
+     justify-content: center;
+     align-items: center;
+
+
+ }
+ .footer{
+     width: 100%;
+     display: flex;
+     height: 20%;
+     justify-content: center;
+     align-items: center;
+     background-color:$head-foot-color;
+     flex-direction: column;
+ }
+ .footer-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FFFFFF;
+ }

@@ -1,0 +1,17 @@
+@import "./styles/_reset.scss";
+@import "./styles/_global.scss";
+@import "./styles/_head-foot";
+@import "./styles/contact-page";
+
+.all{
+    top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-color:$main-backgroud-color;
+  position: absolute;
+}
+
+.body{
+    display: flex;
+}
